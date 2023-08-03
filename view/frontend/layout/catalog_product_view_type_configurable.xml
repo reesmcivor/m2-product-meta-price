@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.form">
+            <block
+                class="Magento\ConfigurableProduct\Block\Product\View\Type\Configurable"
+                name="product.info.options.configurable.price.update"
+                as="options_configurable_price_update"
+                template="ReesMcIvor_ProductMetaPrice::product/view/update_meta_price.phtml"
+                after="-"
+            />
+        </referenceContainer>
+    </body>
+</page>
